@@ -1,0 +1,27 @@
+defaultworld: world
+15920531-204e-44be-96ac-0cca2ea626bc:
+  name: _mlus
+  X: 156
+  Y: 74
+  Z: 31
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 156.0
+    y: 74.0
+    z: 31.0
+    pitch: 0.0
+    yaw: 0.0
+3c337935-bac9-3634-bedb-57edcff1c422:
+  name: _mlus
+  X: 156
+  Y: 74
+  Z: 31
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 156.0
+    y: 74.0
+    z: 31.0
+    pitch: 0.0
+    yaw: 0.0

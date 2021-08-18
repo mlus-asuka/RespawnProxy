@@ -1,0 +1,32 @@
+name: RespawnProxy
+version: '${project.version}'
+main: vip.fubuki.rm.respawnproxy.RespawnProxy
+api-version: 1.16
+authors: [ mlus ]
+description: 这是一个代理Arclight复活的插件。
+website: rm.fubuki.vip:8123
+
+commands:
+  rp reload:
+    description: Reload the config.
+    usage: /<command>
+    permission: <plugin name>.reload
+    permission-message: You don't have <permission>
+  rp setworld:
+      description: set defaultworld as the world.
+      usage: /<command>
+      permission: <plugin name>.setworld
+      permission-message: You don't have <permission>
+
+permissions:
+  rp.*:
+    description: Gives access to all RespawnProxy commands
+    children:
+      rp.reload: false
+      rp.setworld: false
+  rp.reload:
+    description: Reload the config
+    default: op
+  rp.setworld:
+    description: set defaultworld as the world.
+    default: op
